@@ -1,0 +1,11 @@
+Create Mystery Message                          Date: 10-10-2024
+
+* First I create one user message model using mongoose and type script and after create user model with multiple fields.
+=> I verified email address using regexr and check expiry using date.
+=> Next js working in edge side so I export model like (exisiting schema) || (create new schema)
+=>Mongoose using make schema for MongoDB
+
+#Zode
+=> TypeScript first schema validation with static type inference
+=> https://github.com/colinhacks/zod
+
