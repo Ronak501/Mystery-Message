@@ -8,4 +8,8 @@ Create Mystery Message                          Date: 10-10-2024
 #Zode
 => TypeScript first schema validation with static type inference
 => https://github.com/colinhacks/zod
+=> TypeScript is check the Schema is valid or not.
 
+#MongoDB
+=>When making Next Js application at that time check database connaction if they have already so can use it either make new mongodb connection. 
+=>MongoDB return value is array and I extract first value of array and check ready state and then last export MongoDB
