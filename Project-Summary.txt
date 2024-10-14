@@ -13,3 +13,28 @@ Create Mystery Message                          Date: 10-10-2024
 #MongoDB
 =>When making Next Js application at that time check database connaction if they have already so can use it either make new mongodb connection. 
 =>MongoDB return value is array and I extract first value of array and check ready state and then last export MongoDB
+
+#Resend 
+=>Make Signup page use Resend Library and make Signup page For sending OTP in email
+=>React email true create Email templete and also this Library have many components.
+
+* Helper Folder
+=>Create Helper Folder for make oraginzed code if you are not using it's ok.
+
+* Email Folder
+=>Create Email Folder for make code easy and create multiple templete here and also you make cod easy.
+
+*Types Folder
+=>Create Custom Type to create this folder and also when make other custom folder also usse same folder.
+
+#ApiResponse
+=>Create ApiResponse file for makeing one interface and also using in send verification email and this also use type Safety.
+=>In sent mail at this time i use this file and also return promise and message.
+
+#Api's 
+=>In api first import all the code and ApiResponse
+=>In write function first make name is which type of request we are expecting this type of name 
+=>And First connect DB and then try catch block
+=>In the message send time || ApiResponse send time I send Json format data.
+=>In the try block when We collect data from front end at that time we are required await
+=>And also extract data from json bsc of we have 3 fields in front end so first we separate.
