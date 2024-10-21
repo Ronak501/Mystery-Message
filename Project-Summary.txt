@@ -38,3 +38,22 @@ Create Mystery Message                          Date: 10-10-2024
 =>In the message send time || ApiResponse send time I send Json format data.
 =>In the try block when We collect data from front end at that time we are required await
 =>And also extract data from json bsc of we have 3 fields in front end so first we separate.
+
+#OTP
+=>Create the OTP || verifiedCode using math.random() function and also put in user model
+
+#Json Request
+=>In the sign-up file check user is already verified or not by the Usermodel and if user name is already existing to give json response and user is not register.
+=>In the sign-up page make one exisitingUserByEmail and this is not find so make hashed password by Hash Function.
+
+#Create New Usermodel
+=>Create new usermodel and give all required data in usermodel and also see the usermodel(using new keyword).
+=>and After creating usermodel save the usermodel.(using .save() method)
+
+#Send Email verification    
+=>send email verification with username,password and verifiedCode and send mail
+=>after send email this mail direct give success message so verified user and and not give success message throw error.
+
+#IsverifiedByEmail
+=>After this 2 case is possible one is email is already existing and one is create new user.
+=>Create new user give new password, email, verifiedCode.
