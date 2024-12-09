@@ -10,6 +10,9 @@ Create Mystery Message                          Date: 10-10-2024
 => https://github.com/colinhacks/zod
 => TypeScript is check the Schema is valid or not.
 
+#FileName
+=> When we give file name like (auth) means give make group not counting in route
+
 #MongoDB
 =>When making Next Js application at that time check database connaction if they have already so can use it either make new mongodb connection. 
 =>MongoDB return value is array and I extract first value of array and check ready state and then last export MongoDB
@@ -57,3 +60,19 @@ Create Mystery Message                          Date: 10-10-2024
 #IsverifiedByEmail
 =>After this 2 case is possible one is email is already existing and one is create new user.
 =>Create new user give new password, email, verifiedCode.
+
+#Next_Auth(Means Direct Login Like Github, Google)
+=>First Make two file (route & options) and go to documentation and then go to providers 
+=>Credentials Means Username or Password, Email or Password
+=>Configuration->CallBacks: signIn,redirect,jwt,session
+=>All Login have one separate file which is options
+=>providers give me many method id,name and authorize
+=>and we gave authorize method and pass Credentials in this parameters
+=>In Use Time Username = Credentials.identifier and password = Credentials.password otherwise code give error
+=>After Take value Compare with user password and password doesn't match so throw error and password is exist so return the user
+=>Pages give me new pages who's define by Next_Auth
+=>In CallBacks Focus In return 
+=>if CallBacks time he give error so make new file next-auth.d.ts and declare some interface and also make data fields
+
+#Route in Next_Auth
+=>first import option and then make new function handle and pass the auth option and export 
