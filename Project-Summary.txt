@@ -75,4 +75,12 @@ Create Mystery Message                          Date: 10-10-2024
 =>if CallBacks time he give error so make new file next-auth.d.ts and declare some interface and also make data fields
 
 #Route in Next_Auth
-=>first import option and then make new function handle and pass the auth option and export 
+=>first import option and then make new function handle and pass the auth option and export
+
+#Extract Quary parameters
+=>first collect whole URL using new URL() method and then using get method take username
+=>safeparse meaning if schema is correct so give value and when it is incorrect that throw Error.
+=>Then check value if username is already exist and also verified or not and give response like situation 
+
+#verifiedCode
+=>when we take value of URL that time pass all the value of decodeURIComponent method so this methods gives encoded value
