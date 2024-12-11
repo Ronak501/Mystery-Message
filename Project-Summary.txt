@@ -84,3 +84,13 @@ Create Mystery Message                          Date: 10-10-2024
 
 #verifiedCode
 =>when we take value of URL that time pass all the value of decodeURIComponent method so this methods gives encoded value
+
+#Accept-Message
+=>in this route we know user have toggle button so make this on or off time we handle the situation
+=>and all the value is taken by the session and this session we set value in auth-option (user->token->session)
+=>is user is not available so send response and if available switch the status
+
+#Get-Message
+=> TODO:in this portion we use the aggregation pipeline
+=> Use the unwind pipeline we separate the object like (1.hello, 2.world => so using this method make two separate array one for hello and one for world)
+=>In this aggregation pipeline we make first match id and then make unwind and after separate object we sort this and then make group and according to give response
