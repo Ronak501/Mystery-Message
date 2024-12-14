@@ -17,14 +17,14 @@ export async function GET(request: Request) {
         const queryParams = { username: searchParams.get("username")};
 
         //validate with zod 
-        const result = UsernameQuerySchema.safeParse({queryParams });
+        const result = UsernameQuerySchema.safeParse(queryParams);
 
         console.log(result);
 
         if (!result.success) {
             const usernameError = result.error.format().username?._errors || []
 
-            return Response.json({ success: false, message: usernameError?.length > 0 ? usernameError.join(", ") : "Invalid username" }, { status: 400 });
+            return Response.json({ success: false, message: usernameError?.length > 0 ? usernameError.join(", ") : "Invalid Query Parameters" }, { status: 400 });
         }
 
         const { username } = result.data;
@@ -35,7 +35,7 @@ export async function GET(request: Request) {
             return Response.json({ success: false, message: "Username already exists" }, { status: 400 });
         }
 
-        return Response.json({ success: true, message: "Username is available" }, { status: 200 });
+        return Response.json({ success: true, message: "Username is Unique" }, { status: 200 });
     } catch (err) {
         console.log("Error checking username: ", err);
 

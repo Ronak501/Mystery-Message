@@ -94,3 +94,7 @@ Create Mystery Message                          Date: 10-10-2024
 => TODO:in this portion we use the aggregation pipeline
 => Use the unwind pipeline we separate the object like (1.hello, 2.world => so using this method make two separate array one for hello and one for world)
 =>In this aggregation pipeline we make first match id and then make unwind and after separate object we sort this and then make group and according to give response
+
+#DebounceValue
+=>when we check in every event username is valid or not at that time server is loaded with many request so solve this problem we use debouncevalue and give some delay at that time request send depend on debouncevalue
+=>

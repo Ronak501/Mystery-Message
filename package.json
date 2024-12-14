@@ -10,9 +10,17 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.8",
+    "@hookform/resolvers": "^3.9.1",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-toast": "^1.2.3",
     "@react-email/components": "^0.0.25",
     "ai": "^4.0.14",
+    "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
     "mongodb": "^6.9.0",
     "mongoose": "^8.7.1",
     "next": "14.2.15",
@@ -21,8 +29,12 @@
     "react": "^18",
     "react-dom": "^18",
     "react-email": "^1.10.1",
+    "react-hook-form": "^7.54.1",
     "resend": "^4.0.0",
-    "zod": "^3.23.8"
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "usehooks-ts": "^3.1.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
