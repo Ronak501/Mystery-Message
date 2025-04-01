@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 10px auto;
+}
+
+.stats,
+.commitments {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat,
+.commitment {
+  flex: 1;
+  text-align: center;
+}
+
+.value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.unit {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.label {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
